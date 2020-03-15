@@ -10,6 +10,8 @@
 - 查看所有环境变量 ``set``
 - 查看计划任务 ``schtasks /QUERY /fo LIST /v``
 - 查看安装驱动 ``DRIVERQUERY``
+- 查看操作系统架构 ``wmic os get osarchitecture``
+- 查看逻辑盘 ``wmic logicaldisk get caption``
 
 域信息
 ----------------------------------------
@@ -22,13 +24,18 @@
 
 用户信息
 ----------------------------------------
-- 查看用户 ``net user``
+- 查看用户 ``net user`` / ``whoami`` / ``whoami /all``
+- 用户特权信息 ``whoami /priv``
+- 查看当前权限 ``net localgroup administrators``
 - 查看在线用户 ``qwinsta`` / ``query user``
 - 查看当前计算机名，全名，用户名，系统版本，工作 站域，登陆域 ``net config Workstation``
 
 网络信息
 ----------------------------------------
-- 域控信息 ``nltest /dclist:xx``
+- 域控信息
+    - ``nltest /dclist:xx``
+    - ``Get-NetDomain``
+    - ``Get-NetDomainController``
 - 内网网段信息
 - 网卡信息 ``ipconfig``
 - 外网出口
@@ -40,6 +47,8 @@
     - ``netsh firewall show config``
     - ``netsh firewall show state``
 - hosts文件
+- DNS缓存
+    - ``Get-CimInstance -Namespace root/StandardCimv2 -ClassName MSFT_DNSClientCache``
 
 密码信息
 ----------------------------------------
@@ -56,6 +65,9 @@
 ----------------------------------------
 - 查看补丁安装情况
     - ``wmic qfe get Caption,Description,HotFixID,InstalledOn``
+- 日志与事件信息
+    - ``wevtutil``
 - 注册表信息
+    - ``reg``
 - 安装的监控软件
 - 安装的杀毒软件

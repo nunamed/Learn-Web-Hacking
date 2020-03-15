@@ -3,7 +3,7 @@
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: 内容索引:
 
    resource
    papers
@@ -11,8 +11,8 @@
    socialengineering
    fuzz
    exploit
-   persistence
+   webpersistence
+   ospersistence
    defense
    operation
-   phishing
    misc

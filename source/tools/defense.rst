@@ -7,7 +7,13 @@
 - `LastActivityView <http://www.nirsoft.net/utils/computer_activity_view.html>`_
 - `Regshot <https://sourceforge.net/projects/regshot/>`_
 
-XSS
+终端监控
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+- `attack monitor <https://github.com/yarox24/attack_monitor>`_ Endpoint detection & Malware analysis software
+- `artillery <https://github.com/BinaryDefense/artillery>`_ The Artillery Project is an open-source blue team tool designed to protect Linux and Windows operating systems through multiple methods.
+- `yurita <https://github.com/paypal/yurita>`_ Anomaly detection framework @ PayPal
+
+XSS防护
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 - `js xss <https://github.com/leizongmin/js-xss>`_
 - `DOMPurify <https://github.com/cure53/DOMPurify>`_
@@ -15,7 +21,9 @@ XSS
 
 配置检查
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-- `gixy - Nginx 配置检查工具 <https://github.com/yandex/gixy>`_
+- `Attack Surface Analyzer <https://github.com/microsoft/AttackSurfaceAnalyzer>`_ analyze operating system's security configuration for changes during software installation.
+- `gixy <https://github.com/yandex/gixy>`_ Nginx 配置检查工具
+- `dockerscan <https://github.com/cr0hn/dockerscan>`_ Docker security analysis & hacking tools
 
 安全检查
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -28,9 +36,15 @@ IDS
 - `yulong <https://github.com/ysrc/yulong-hids>`_
 - `AgentSmith <https://github.com/DianrongSecurity/AgentSmith-HIDS>`_
 
-threat intelligence
+威胁情报
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 - `threatfeeds <https://threatfeeds.io/>`_
+- `abuseipdb <https://www.abuseipdb.com/>`_
+
+APT
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+- `APT Groups and Operations <https://docs.google.com/spreadsheets/d/1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU/pubhtml>`_
+- `APTnotes <https://github.com/kbandla/APTnotes>`_
 
 入侵检查
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -74,5 +88,31 @@ IoC
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 - `SfAntiBotPro <http://edr.sangfor.com.cn/tool/SfabAntiBot_X64.7z>`_
 - `volatility <https://github.com/volatilityfoundation/volatility>`_
-- ` <>`_
 
+审计工具
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+- `Cobra <https://github.com/FeeiCN/cobra>`_
+- `NodeJsScan <https://github.com/ajinabraham/NodeJsScan>`_
+- `RIPS <http://rips-scanner.sourceforge.net/>`_
+- `pyvulhunter <https://github.com/shengqi158/pyvulhunter>`_
+- `pyt <https://github.com/python-security/pyt>`_
+- `Semmle QL <https://github.com/Semmle/ql>`_
+- `prvd <https://github.com/fate0/prvd>`_
+- `find sec bugs <https://github.com/find-sec-bugs/find-sec-bugs>`_
+- `trivy <https://github.com/knqyf263/trivy>`_
+- `chip <https://github.com/phith0n/chip>`_
+- `php malware finder <https://github.com/nbs-system/php-malware-finder>`_
+- `phpvulhunter <https://github.com/OneSourceCat/phpvulhunter>`_
+- `Sourcetrail <https://github.com/CoatiSoftware/Sourcetrail>`_ free and open-source cross-platform source explorer
+
+Security Advisories
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+- `apache httpd security advisories  <https://httpd.apache.org/security/>`_
+- `nginx security advisories <http://nginx.org/en/security_advisories.html>`_
+- `Jetty Security Reports <https://www.eclipse.org/jetty/documentation/current/security-reports.html>`_
+- `Apache Tomcat <https://tomcat.apache.org/security-8.html>`_
+- `OpenSSL <https://www.openssl.org/news/vulnerabilities.html>`_
+
+风险控制
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+- `aswan <https://github.com/momosecurity/aswan>`_ 陌陌风控系统静态规则引擎

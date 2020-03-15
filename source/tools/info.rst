@@ -15,6 +15,7 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 - `the art of subdomain enumeration <https://github.com/appsecco/the-art-of-subdomain-enumeration>`_
 - `sslScrape <https://github.com/cheetz/sslScrape/blob/master/sslScrape.py>`_
+- `aquatone <https://github.com/michenriksen/aquatone>`_ A Tool for Domain Flyovers
 
 弱密码爆破
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -32,6 +33,7 @@ Git信息泄漏
 - `dig github history <https://github.com/dxa4481/truffleHog>`_
 - `gitrob Reconnaissance tool for GitHub organizations <https://github.com/michenriksen/gitrob>`_
 - `git secrets <https://github.com/awslabs/git-secrets>`_
+- `shhgit <https://github.com/eth0izzle/shhgit>`_ Find GitHub secrets in real time
 
 Github监控
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -51,12 +53,17 @@ Github监控
 - `bfac <https://github.com/mazen160/bfac>`_
 - `ds_store_exp <https://github.com/lijiejie/ds_store_exp>`_
 
+路径爬虫
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+- `crawlergo <https://github.com/0Kee-Team/crawlergo>`_ A powerful dynamic crawler for web vulnerability scanners
+
 指纹识别
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 - `Wappalyzer <https://github.com/AliasIO/Wappalyzer>`_
 - `whatweb <https://github.com/urbanadventurer/whatweb>`_
 - `Wordpress Finger Print <https://github.com/iniqua/plecost>`_
 - `CMS指纹识别 <https://github.com/n4xh4ck5/CMSsc4n>`_
+- `JA3 <https://github.com/salesforce/ja3>`_ is a standard for creating SSL client fingerprints in an easy to produce and shareable way
 
 Waf指纹
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -104,7 +111,7 @@ DNS关联
 
 Password
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-- `Probable Wordlists <https://github.com/berzerk0/Probable-Wordlists>`_
+- `Probable Wordlists <https://github.com/berzerk0/Probable-Wordlists>`_ Wordlists sorted by probability originally created for password generation and testing
 - `Common User Passwords Profiler <https://github.com/Mebus/cupp>`_
 - `chrome password grabber <https://github.com/x899/chrome_password_grabber>`_
 
@@ -112,6 +119,10 @@ Password
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 - `Blasting dictionary <https://github.com/rootphantomer/Blasting_dictionary>`_
 - `pydictor <https://github.com/LandGrey/pydictor>`_
+
+CI信息泄露
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+- `secretz <https://github.com/lc/secretz>`_ minimizing the large attack surface of Travis CI
 
 其他
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

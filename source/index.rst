@@ -4,9 +4,10 @@ Web安全学习笔记
 .. toctree::
    :numbered:
    :maxdepth: 2
-   :caption: Contents:
+   :caption: 内容索引:
 
    basic/index
+   network/index
    info/index
    vuln/index
    language/index
@@ -16,11 +17,3 @@ Web安全学习笔记
    tools/index
    manual/index
    misc/index
-
-
-目录
-================================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`

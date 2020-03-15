@@ -1,9 +1,9 @@
-常见漏洞
+常见漏洞攻防
 ================================
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: 内容索引:
 
    sql/index
    xss/index
@@ -19,5 +19,6 @@
    xpath
    logic
    config
-   middleware
+   middleware/index
    webcache
+   httpSmuggling
